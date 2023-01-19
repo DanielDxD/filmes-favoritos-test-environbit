@@ -2,10 +2,17 @@
 
 .film-card {
     padding: 20px;
-    background-color: $dark;
+    background-color: $deep-dark;
     margin-bottom: 20px;
     border-radius: 5px;
     min-height: 350px;
+    transition: .3s ease-in;
+    transform: scale(0.9);
+
+    &:hover {
+        background-color: $dark;
+        transform: scale(1.0);
+    }
 
     img {
         border-radius: 5px;
