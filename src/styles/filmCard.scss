@@ -1,0 +1,18 @@
+@import "./vars.scss";
+
+.film-card {
+    padding: 20px;
+    background-color: $dark;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    min-height: 350px;
+
+    img {
+        border-radius: 5px;
+        margin-bottom: 20px;
+    }
+
+    p {
+        margin: 0;
+    }
+}
